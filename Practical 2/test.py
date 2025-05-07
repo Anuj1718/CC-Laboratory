@@ -18,29 +18,29 @@ print("This is a test file.")
 
 
 # Step 1: Go to home directory (optional but clean)
-cd ~
+#cd ~
 
 # Step 2: Remove existing repo folder if it exists (to avoid errors)
-rm -rf CC-Laboratory
+#rm -rf CC-Laboratory
 
 # Step 3: Clone the GitHub repository using HTTPS
-git clone https://github.com/Anuj1718/CC-Laboratory.git
+#git clone https://github.com/Anuj1718/CC-Laboratory.git
 
 # Step 4: Navigate into the cloned repository
-cd CC-Laboratory
+#cd CC-Laboratory
 
 # Step 5: List files to confirm it's cloned
-ls -l
+#ls -l
 
 # Step 6: Check git status
-git status
+#git status
 
 # Step 7: Run the Python file
-python3 test.py
+#python3 test.py
 
 # Step 8: If you made changes to the file, stage it
-git add test.py
+#git add test.py
 
 # Step 9 (optional): Commit and push
-git commit -m "Updated test.py"
-git push origin main  # or `master` if your repo uses that
+#git commit -m "Updated test.py"
+#git push origin main  # or `master` if your repo uses that

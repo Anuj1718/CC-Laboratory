@@ -34,5 +34,5 @@ public class LinearSearch {
 //Lightning components / Visualforce pages (via controllers)
 //Anonymous blocks in Developer Console
 
-Run like
+// Run like
 // LinearSearch.searchElement(5); // You have to manually pass the value

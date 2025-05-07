@@ -25,3 +25,14 @@ public class LinearSearch {
         }
     }
 }
+
+// In Apex (Salesforce), you cannot take interactive input at runtime like in Java or Python (e.g., Scanner or input()), because Apex runs on the server side and is used in contexts like:
+
+//Triggers
+//Batch classes
+//Scheduled jobs
+//Lightning components / Visualforce pages (via controllers)
+//Anonymous blocks in Developer Console
+
+Run like
+// LinearSearch.searchElement(5); // You have to manually pass the value
